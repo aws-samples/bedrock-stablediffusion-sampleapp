@@ -1,0 +1,26 @@
+{
+  "name": "bedrocksdcontest",
+  "version": "1.0.0",
+  "description": "App for running SD contest",
+  "main": "prompt_server.js",
+  "dependencies": {
+    "express": "^4.18.2",
+    "aws-sdk":"2.1483.0",
+    "@aws-sdk/client-s3": "^3.298.0",
+    "@aws-sdk/lib-storage": "^3.298.0",
+    "@aws-sdk/client-dynamodb": "^3.363.0",
+    "@aws-sdk/lib-dynamodb": "^3.365.0",
+    "@aws-sdk/protocol-http":"3.374.0",
+    "@aws-sdk/credential-provider-node":"3.391.0",
+    "@aws-sdk/signature-v4":"3.374.0",
+    "@aws-sdk/node-http-handler":"3.374.0",
+    "@aws-crypto/sha256-browser":"5.0.0",
+    "@aws-sdk/client-bedrock-runtime":"^3.438.0",
+    "@aws-sdk/client-bedrock":"^3.438.0",
+    "socket.io": "^4.3.2",
+    "fast-xml-parser": "^4.2.5",
+    "tslib": "^2.6.0",
+    "strnum": "^1.0.5",
+    "uuid": "^8.3.2"
+  }
+}
